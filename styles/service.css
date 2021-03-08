@@ -20,9 +20,12 @@
   max-width: 340px;
   margin: 20px;
   text-align: center;
-  transition: 0.5s;
+  transition: all 0.5s ease-out;
 }
 
+.services .content .servicesBx:hover {
+  color: black;
+}
 .services .content .servicesBx:hover {
   background: #FC6D6D;
 }
@@ -30,6 +33,11 @@
 .services .content .servicesBx img {
   max-width: 80px;
   filter: invert(1);
+  transition: all 0.5s ease-out;
+}
+
+.services .content .servicesBx:hover img {
+  filter: none;
 }
 
 .services .content .servicesBx img {
