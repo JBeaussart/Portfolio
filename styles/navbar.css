@@ -24,6 +24,11 @@ header .logo {
   text-decoration: none;
   font-weight: 700;
   letter-spacing: 2px;
+  transition: all 0.5s ease-out;
+}
+
+header .logo:hover {
+  color: #FC6D6D;
 }
 
 header.sticky .logo {
@@ -46,7 +51,31 @@ header ul li a {
   margin: 0 15px;
   color: #fff;
   text-decoration: none;
+  transition: all 0.5s ease-out;
 }
+
+/* header ul li a:hover {
+  color: #FC6D6D;
+  border-bottom: 1px solid #FC6D6D;
+} */
+
+header ul li a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #FC6D6D;
+  transition: width .3s;
+}
+
+header ul li a:hover:after {
+  width: 100%;
+  transition: width .3s;
+}
+header ul li a:hover {
+  color: #FC6D6D;
+}
+
 header.sticky ul li a {
   color: #111;
 }
