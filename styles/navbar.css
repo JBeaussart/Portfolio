@@ -54,23 +54,6 @@ header ul li a {
   transition: all 0.5s ease-out;
 }
 
-/* header ul li a::after {
-  content: '';
-  display: block;
-  width: 0;
-  height: 2px;
-  background: #FC6D6D;
-  transition: width .3s;
-}
-
-header ul li a:hover:after {
-  width: 100%;
-  transition: width .3s;
-}
-header ul li a:hover {
-  color: #FC6D6D;
-} */
-
 header.sticky ul li a {
   color: #111;
 }
