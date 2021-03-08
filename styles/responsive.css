@@ -1,3 +1,13 @@
+@media (max-width: 1600px) {
+ .textBx {
+   display: none;
+ }
+ .responsive-replace {
+  display: block;
+}
+}
+
+
 @media (max-width: 991px) {
   header,
   header.sticky {
@@ -26,14 +36,14 @@
   .toggle {
     width: 40px;
     height: 40px;
-    background: url(images/menu.png);
+    background: url(../images/menu.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 30px;
     cursor: pointer;
   }
   .toggle.active {
-    background: url(images/close.png);
+    background: url(../images/close.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 25px;
@@ -104,5 +114,13 @@
   }
   section {
     padding: 100px 20px;
+  }
+  .responsive-replace h1 {
+    font-size: 30px;
+    color: white;
+  }
+  .responsive-replace p {
+    font-size: 20px;
+    color: white;
   }
 }
