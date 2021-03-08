@@ -43,11 +43,19 @@
 
 .formBx form input[type="submit"] {
   max-width: 100px;
-  background: #2196f3;
+  border: 1px solid #FC6D6D;
+  background: #000;
+  color: #FC6D6D;
   cursor: pointer;
   text-transform: uppercase;
   letter-spacing: 2px;
   padding: 8px 8px;
+  transition: all 0.3s ease-out;
+}
+
+.formBx form input[type="submit"]:hover {
+  background: #FC6D6D;
+  color: black;
 }
 
 .contactInfo {
@@ -85,6 +93,6 @@
 
 .contactInfoBx .box .text h3 {
   font-weight: 500;
-  color: #2196f3;
+  color: #FC6D6D;
   margin-bottom: 0;
 }
