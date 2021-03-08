@@ -27,6 +27,19 @@
   font-weight: 500;
 }
 
+.responsive-replace {
+  display: none;
+}
+.responsive-replace h1 {
+  font-size: 50px;
+  color: white;
+}
+
+.responsive-replace p {
+  font-size: 30px;
+  color: white;
+  opacity: 0.8;
+}
 
 /* ARROW SCROLL DOWN */
 

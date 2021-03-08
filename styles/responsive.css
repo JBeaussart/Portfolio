@@ -1,3 +1,13 @@
+@media (max-width: 1600px) {
+ .textBx {
+   display: none;
+ }
+ .responsive-replace {
+  display: block;
+}
+}
+
+
 @media (max-width: 991px) {
   header,
   header.sticky {
@@ -104,5 +114,13 @@
   }
   section {
     padding: 100px 20px;
+  }
+  .responsive-replace h1 {
+    font-size: 30px;
+    color: white;
+  }
+  .responsive-replace p {
+    font-size: 20px;
+    color: white;
   }
 }
