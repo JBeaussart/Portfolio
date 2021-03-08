@@ -54,7 +54,7 @@ header ul li a {
   transition: all 0.5s ease-out;
 }
 
-header ul li a::after {
+/* header ul li a::after {
   content: '';
   display: block;
   width: 0;
@@ -69,7 +69,7 @@ header ul li a:hover:after {
 }
 header ul li a:hover {
   color: #FC6D6D;
-}
+} */
 
 header.sticky ul li a {
   color: #111;
@@ -85,4 +85,28 @@ header.sticky ul li a {
 .heading h2 {
   font-weight: 600;
   font-size: 30px;
+}
+
+/* UNDERLINE LEFT TO RIGHT */
+
+.link:hover {
+  color: #FC6D6D;
+}
+
+.link:after{
+  content: '';
+  position: absolute;
+  width: 0; height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #FC6D6D;
+  transition: width .2s ease;
+  -webkit-transition: width .4s ease;
+}
+ 
+.link:hover:after{
+  width: 100%;
+  left: 0;
+  background: #FC6D6D;
 }
