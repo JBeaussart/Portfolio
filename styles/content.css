@@ -5,6 +5,7 @@
 
 .contentBx {
   padding-right: 30px;
+  line-height: 30px;
 }
 
 .contentBx h3 {
@@ -14,6 +15,10 @@
 
 .w50 {
   min-width: 50%;
+}
+
+.slogan-about {
+  font-size: 20px;
 }
 
 .about-img {
